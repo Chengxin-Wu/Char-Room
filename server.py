@@ -24,7 +24,7 @@ def parseArgs():
 
 
 def main():
-    args = parseArgs()      # parse the command-line arguments
+    args = parseArgs()     # parse the command-line arguments
 
     # set up logging
     log = logging.getLogger("myLogger")
