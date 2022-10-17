@@ -57,7 +57,6 @@ def parseArgs():
 # the hexdigest() function.)
 #
 # note that you MUST convert confkey and authkey to ascii encoding,
-# e.g., confkey_as_bytes = bytes(confkey,'ascii')
 def hashKeys( confkey, authkey):
     # insert code to compute two hashes here
     confkey = bytes(confkey,'ascii')
